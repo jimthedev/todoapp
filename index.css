@@ -1,13 +1,15 @@
-/*
-Error: #F16745
-Warning: #FFC65D  
-Success: #7BC8A4  
-Info: #4CC3D9 
-Esteem: #93648D
-Darksmoke:  #404040
-Whitesmoke: whitesmoke
-*/
+/* THIS IS THE START OF A COMMENT
+  
+  Error: #F16745
+  Warning: #FFC65D
+  Success: #7BC8A4
+  Info: #4CC3D9
+  Esteem: #93648D
+  Darksmoke:  #404040
+  Whitesmoke: whitesmoke
+THIS IS THE END OF A COMMENT */
 
+/*
 html, body {
   background-color: #404040;
   color: whitesmoke;
@@ -46,7 +48,7 @@ todo {
   -ms-user-select: none;
 }
 
-todo-controls {
+controls {
   display:block;
   text-align:center;
   margin-top: 30px;
@@ -54,7 +56,7 @@ todo-controls {
 
 .huge {
   font-size: 25px;
-  width: 400px;
+  width: 200px;
 }
 
 button.success {
@@ -96,3 +98,10 @@ info {
 }
 
 [hidden] {display:none;}
+
+@media (min-width: 460px) {
+  .huge {
+    width: 400px;
+  }
+}
+*/

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Todo App</title>
+  <title>Honey Do List</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
   <link href="index.css" rel="stylesheet" />
@@ -11,20 +11,19 @@
   <app>
     <h1>Honey Do List</h1>
     <todos>
-      <error hidden>asdasdas</error>
-      <info hidden>asdasdas</info>
+      <error hidden>Some info</error>
+      <info hidden>Some info</info>
       <todo>
         <label><input type="checkbox" name="groceries" /> Groceries</label>
       </todo>
       <todo>
         <label><input type="checkbox" name="maketodolist" /> Make a todo list</todo></label>
     </todos>
-    <todo-controls>
+    <controls>
       <input type="text" name="newtodo" id="newtodobox" class="huge" />
       <button class="success" id="addtodo">Add todo</button>
       <button class="warning" id="deletetodos">Delete todos</button>
-    </todo-controls>
-    
+    </controls>
   </app>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="index.js"></script>

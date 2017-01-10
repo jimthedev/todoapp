@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jimthedev/todoapp/issues"
   },
-  "homepage": "https://github.com/jimthedev/todoapp#readme"
+  "homepage": "https://github.com/jimthedev/todoapp#readme",
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
 }
